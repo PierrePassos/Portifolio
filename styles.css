@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: #d3d6db;
+    --secondary: #3a4750;
+    --terciary: #303841;
+    --red:#cd1616; 
+}
+
