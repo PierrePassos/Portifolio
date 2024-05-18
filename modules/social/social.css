@@ -1,0 +1,15 @@
+@import url('../../styles.css');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    transition: opacity 0.5s ease-in-out;
+}
+
+body.loading {
+    opacity: 0;
+}
