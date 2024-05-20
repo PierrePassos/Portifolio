@@ -24,10 +24,7 @@ body.loading {
     height: 100vh;
     padding: 0;
     margin: 0;
-    /* background-image: linear-gradient(to bottom, black, white); */
     background-image: url("imagens/black_and_white.jpg");
-    /* background-color: black; */
-    /* background-repeat: round; */
     background-size: contain;
 }
 
@@ -38,7 +35,6 @@ body.loading {
 }
 
 .content>header>section{
-    /* width: 40%; */
     padding-left: 5vw;
 }
 
@@ -62,7 +58,6 @@ ul {
 .button {
     display: inline-block;
     margin: 10px;
-    /* color: var(--red); */
     color: white;
     padding: 0.8em 1.7em;
     background-color: transparent;
@@ -121,7 +116,6 @@ ul {
 .titulo{
     color: white;
     text-transform: uppercase;
-    /* border: 1px solid white; */
     opacity: 0.7;
 }
 
@@ -129,7 +123,6 @@ ul {
     width: 90vw;
     height: 80vh;
     margin: 10vh 0 0 5vw;
-    /* background-color: rgb(234, 180, 180); */
     border-radius: 0 100px 0 100px;
     border: 1px solid transparent;
     background: rgba(255, 255, 255, 0.104);
