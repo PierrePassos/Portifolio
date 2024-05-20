@@ -41,12 +41,9 @@ body.loading {
     align-items: center;
 }
 
-.contato>div:nth-child(2)>form > input
-/* >form>input */
- {
+.contato>div:nth-child(2)>form>input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    /* width: 15px; */
 }
