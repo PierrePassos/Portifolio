@@ -8,11 +8,8 @@ body {
 
 .cards {
     margin-top: 20px;
-    /* display: flex;
-    gap: 5px;
-    justify-content: center;
-    flex-wrap: unset; */
 }
+
 .card {
     background-color: lightgray;
     border: 1px solid #ddd;
@@ -22,26 +19,14 @@ body {
     max-width: 70%;
     position: absolute;
     height: 100px;
-    /* min-height: 80%; */
     text-align: left;
-    /* transition: transform 0.2s; */
     color: black;
     margin: 25px 0 0 100px;
     animation: move-right 1.5s ease-in-out forwards;
 }
+
 .card p {
     margin: 0 0 10px;
-}
-
-@keyframes move-right {
-    from {
-        left: -1000px;
-        opacity: 0;
-    }
-    to {
-        left: 0;
-        opacity: 1;
-    }
 }
 
 .foto {

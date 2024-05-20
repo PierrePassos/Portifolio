@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="contato.css">
+</head>
+
+<body class="content">
+
+    <header>
+        <section>
+            <ul>
+                <li><a class="button" href="../home/home.html"> Home </a></li>
+                <li><a class="button" href="../sobre_mim/sobre_mim.html"> Sobre mim </a></li>
+                <li><a class="button" href="../experiencias/experiencias.html"> Experiências </a></li>
+                <li><a class="button" href="../habilidades/habilidades.html"> Habilidades </a></li>
+                <li><a class="button" href="../contato/contato.html"> Contato </a></li>
+            </ul>
+        </section>
+    </header>
+
+    <section class="container">
+        <div class="contato">
+            <div>
+                <div>
+                    <label for="whatsapp">Whats App</label> <br>
+                    <span>(41) 99614-2886</span>
+                </div>
+                <div>
+                    <label for="email">Email</label> <br>
+                    <span>dev.pierre.passos@gmail.com</span>
+                </div>
+                <div>
+                    <label for="linkdin">Linkedin</label> <br>
+                    <span><a style="color: white;"
+                            href="https://www.linkedin.com/in/pierre-aparecido-palczuk-de-passos-589697192"
+                            target="_blank"> Perfil Linkdin</a></span>
+                </div>
+            </div>
+            <div>
+                <form id="contact-form">
+                    <div>
+                        <h3>Entre em contato</h3>
+                    </div>
+                    <div>
+                        <label for="name">Nome</label> <br>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label> <br>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Mensagem</label> <br>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            alert('Mensagem enviada com sucesso!');
+            this.reset();
+        });
+    </script>
+
+</body>
+
+</html>
