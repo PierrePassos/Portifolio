@@ -1,0 +1,95 @@
+<section class="toolbar-section">
+    <mat-toolbar>
+        <mat-toolbar-row>
+            <button id="logo" (click)="scrollToSection('sobreMim')">
+                <img src="assets/imagens/p.white2.png">
+            </button>
+
+            <span class="example-spacer"></span>
+            <button class="btn btn-dark mx-2" (click)="scrollToSection('sobreMim')">
+                <span>Sobre mim</span>
+            </button>
+            <button class="btn btn-dark mx-2" (click)="scrollToSection('experiencias')">
+                <span>Experiências</span>
+            </button>
+            <button class="btn btn-dark mx-2" (click)="scrollToSection('formacao')">
+                <span>Formação</span>
+            </button>
+            <button class="btn btn-dark mx-2" (click)="scrollToSection('habilidades')">
+                <span>Habilidades</span>
+            </button>
+            <button class="btn btn-dark mx-2" (click)="scrollToSection('projetos')">
+                <span>Projetos</span>
+            </button>
+            <button class="btn btn-dark mx-2" (click)="scrollToSection('contato')">
+                <span>Contato</span>
+            </button>
+            <button class="btn" (click)="openEmail()">
+                <mat-icon style="color: white;">email</mat-icon>
+                <!-- <span>pierre.passos.dev&#64;gmail.com</span> -->
+            </button>
+            <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+                <mat-icon>favorite</mat-icon>
+            </button> -->
+        </mat-toolbar-row>
+    </mat-toolbar>
+</section>
+<section #sobreMim class="content-section" style="margin-top: 10vh;">
+    <mat-grid-list cols="5" rowHeight="100%">
+        <mat-grid-tile colspan="2">
+            <section style="background-color: yellow; height: 100%; width: 100%;">
+                <h1> Olá, Eu sou Pierre Passos</h1>
+                <h3>Desenvolvedor & Programador Full Stack</h3>
+                <div></div>
+            </section>
+        </mat-grid-tile>
+        <mat-grid-tile colspan="3">
+            <section style="height: 100%; width: 100%; display: flex; justify-content: center; align-items: center;">
+                <mat-card appearance="outlined" class="card">
+                    <mat-card-content>Simple card</mat-card-content>
+                </mat-card>
+            </section>
+        </mat-grid-tile>
+    </mat-grid-list>
+</section>
+<section #experiencias class="content-section">
+    <mat-grid-list cols="2" rowHeight="100%" style="background-color: rgb(91, 165, 42);">
+        <mat-grid-tile>1</mat-grid-tile>
+        <mat-grid-tile>2</mat-grid-tile>
+        <mat-grid-tile>3</mat-grid-tile>
+        <mat-grid-tile>4</mat-grid-tile>
+    </mat-grid-list>
+</section>
+<section #formacao class="content-section">
+    <mat-grid-list cols="2" rowHeight="100%" style="background-color: rgb(42, 142, 165);">
+        <mat-grid-tile>1</mat-grid-tile>
+        <mat-grid-tile>2</mat-grid-tile>
+        <mat-grid-tile>3</mat-grid-tile>
+        <mat-grid-tile>4</mat-grid-tile>
+    </mat-grid-list>
+</section>
+<section #habilidades class="content-section">
+    <mat-grid-list cols="2" rowHeight="100%" style="background-color: brown;">
+        <mat-grid-tile>1</mat-grid-tile>
+        <mat-grid-tile>2</mat-grid-tile>
+        <mat-grid-tile>3</mat-grid-tile>
+        <mat-grid-tile>4</mat-grid-tile>
+    </mat-grid-list>
+</section>
+<section #projetos class="content-section">
+    <mat-grid-list cols="2" rowHeight="100%" style="background-color: coral;">
+        <mat-grid-tile>1</mat-grid-tile>
+        <mat-grid-tile>2</mat-grid-tile>
+        <mat-grid-tile>3</mat-grid-tile>
+        <mat-grid-tile>4</mat-grid-tile>
+    </mat-grid-list>
+</section>
+<section #contato class="content-section">
+    <mat-grid-list cols="2" rowHeight="100%">
+        <mat-grid-tile>1</mat-grid-tile>
+        <mat-grid-tile>2</mat-grid-tile>
+    </mat-grid-list>
+</section>
+<section id="whatsApp">
+    <button></button>
+</section>
